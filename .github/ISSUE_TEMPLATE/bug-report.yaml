@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report a bug encountered
-labels: kind/bug
 body:
   - type: textarea
     id: problem
@@ -36,7 +35,6 @@ body:
         $ <software> version
         # paste output here
         ```
-
         </details>
     validations:
       required: false
